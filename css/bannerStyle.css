@@ -25,3 +25,25 @@ img{
     height: 60px;
     padding: 5px;
 }
+
+#banner2{
+    display: inherit;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(256, 256, 256, 0.8);
+    width: min-content;
+    align-items: center;
+    margin-top: 10px;
+    height: 60px;
+    padding: 5px;
+}
+
+#banner3{
+    display: inherit;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(256, 256, 256, 0.8);
+    width: min-content;
+    align-items: center;
+    margin-top: 10px;
+    height: 60px;
+    padding: 5px;
+}

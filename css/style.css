@@ -108,6 +108,7 @@ div.todo{
     display: block;
     background-color: rgba(256, 256, 256, 0.8);
     border-radius: 30px;
+    margin-left: -45px;
 }
 
 .hidden{
