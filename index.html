@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bannerStyle.css" />
+    <title>Momentum App</title>
+  </head>
+  <body>
+    <header>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <h2 id="clock">00:00:00</h2>
+      <form class="hidden" id="login-form">
+        <input required maxlength="15" placeholder="당신의 이름은 무엇인가요??" type="text" />
+        <input type="submit" value="Log In" />
+      </form>
+      <h1 class="hidden" id="greeting"></h1>
+      <div id="weather">
+        <span id="Weather"></span>
+        <span id="City"></span>
+      </div>
+    <div class="container">
+      <div class="banner">
+        <div id="banner1">
+          <a href="https://replit.com/" target="_blank">
+            <img src="img/replit.png" width="26" height="26"/>
+          </a>
+          <a href="https://stackoverflow.com/" target="_blank">
+            <img src="img/stackoverflow.png" width="26" height="26"/>
+          </a>
+          <a href="https://www.inflearn.com/" target="_blank">
+            <img src="img/inflearn.png" width="26" height="26"/>
+          </a>
+          <a href="https://www.acmicpc.net/" target="_blank">
+            <img src="img/baekjoon.png" width="26" height="26"/>
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <img src="img/github.png" width="26" height="26"/>
+          </a>
+        </div>
+        <div id="banner2">
+    
+        </div>
+        <div id="banner3">
+      
+        </div>
+      </div>
+      <div class="todo">
+        <form id="todo-form">
+          <input type="text" placeholder="할 일을 적어보아요!" required />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+      <div class="another">
+  
+      </div>
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

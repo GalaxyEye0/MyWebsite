@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'RixInooAriDuriR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+div#quote{
+    display: block;
+    font-family: 'EarlyFontDiary', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: ghostwhite;
+    border-top: 10px;
+    text-align: center;
+    background: linear-gradient(0.27turn, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15));
+    line-height: 2.5rem;
+}
+
+div#weather{
+    font-family: Arial, Helvetica, sans-serif ,'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+}
+
+#login-form{
+    text-align: center;
+    margin: 50px;
+}
+
+#greeting{
+    display: flex;
+    flex-direction: column;
+    font-family: 'yg-jalnan', 'Arial','Times New Roman', Georgia, Times, serif, 'Segoe UI', Tahoma, Verdana;
+    font-size: 4em;
+    text-align: center;
+    width: inherit;
+    margin-bottom: 0px;
+}
+
+.container{
+    display: flex;
+    height: max-content;
+    margin-top: 20px;
+}
+
+#clock{
+    width: min-content;
+    font-family: 'RixInooAriDuriR';
+    background-color: rgba(256, 256, 256, 0.8);
+    border-radius: 30px;
+    font-size: 3em;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    left: 80%;
+}
+
+form#todo-form{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+ul#todo-list{
+    padding-left: 35px;
+    margin-right: 10px;
+    white-space: pre-line;
+}
+
+div.todo{
+    width: max-content;
+    display: block;
+    background-color: rgba(256, 256, 256, 0.8);
+    border-radius: 30px;
+}
+
+.hidden{
+    display: none;
+}
+
+span#Weather{
+    margin-right: 5px;
+}
+
+span#City{
+    margin-right: 5px;
+}
